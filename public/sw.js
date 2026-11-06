@@ -1,5 +1,5 @@
 ﻿// مِین استوریج service worker — offline caching + push-ready.
-const CACHE = "carpart-v1";
+const CACHE = "carpart-v2";
 const OFFLINE_URL = "/";
 // App-shell assets cached on install.
 const PRECACHE = ["/", "/manifest.webmanifest", "/icon.svg"];
