@@ -1,10 +1,14 @@
 import type { NextConfig } from "next";
 
+const isProd = process.env.NODE_ENV === "production";
+
 const nextConfig: NextConfig = {
+  output: "export",
+  basePath: isProd ? "/ssr_test2" : "",
+  assetPrefix: isProd ? "/ssr_test2/" : "",
+  trailingSlash: true,
   images: {
-    // Fake/sample data uses data: SVG placeholders; Next image optimization
-    // doesn't handle these well, so unoptimize when fake data is enabled.
-    unoptimized: process.env.NEXT_PUBLIC_FAKE_DATA === "true",
+    unoptimized: true,
     remotePatterns: [
       { protocol: "http", hostname: "localhost", port: "8000" },
       { protocol: "http", hostname: "127.0.0.1", port: "8000" },

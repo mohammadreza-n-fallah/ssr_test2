@@ -1,6 +1,8 @@
 import type { MetadataRoute } from "next";
 import { fakeSitemapData } from "@/lib/fake-data";
 
+export const dynamic = "force-static";
+
 const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL || "http://localhost:3000";
 const API_URL = process.env.NEXT_PUBLIC_API_URL || "http://localhost:8000/api/v1";
 const USE_FAKE_DATA = process.env.NEXT_PUBLIC_FAKE_DATA === "true";

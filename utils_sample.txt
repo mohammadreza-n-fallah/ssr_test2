@@ -1,0 +1,187 @@
+
+محصولات:
+
+{
+name:"چراغ خطر رانا پلاس",
+description:"چراغ خطر رانا پلاس چپ",
+category:"چراغ و بدنه",
+brand:"کروز",
+price:"12000000",
+sale_price:"10000000",
+image:"C:\Users\No1\Desktop\cla\nextjs-frontend\public\چراغ جلو 207.jpg"
+
+}
+
+
+
+{
+  name: "چراغ جلو پژو 207",
+  description: "چراغ جلو پژو 207 سمت چپ",
+  category: "چراغ و بدنه",
+  brand: "مدرن",
+  price: "8500000",
+  sale_price: "7500000",
+  image: "C:\\Users\\No1\\Desktop\\cla\\nextjs-frontend\\public\\چراغ جلو 206.jpg"
+},
+{
+  name: "آینه بغل پژو پارس",
+  description: "آینه بغل پژو پارس برقی سمت راست",
+  category: "چراغ و بدنه",
+  brand: "کروز",
+  price: "6500000",
+  sale_price: "5500000",
+  image: "C:\\Users\\No1\\Desktop\\cla\\nextjs-frontend\\public\\آینه بغل پارس.jpg"
+},
+{
+  name: "سپر جلو پژو ۲۰۷",
+  description: "سپر جلو پژو ۲۰۷ مناسب مدل‌های جدید",
+  category: "چراغ و بدنه",
+  brand: "ایران خودرو",
+  price: "15000000",
+  sale_price: "13500000",
+  image: "C:\\Users\\No1\\Desktop\\cla\\nextjs-frontend\\public\\سپر جلو 207.jpg"
+},
+{
+  name: "چراغ عقب سمند",
+  description: "چراغ خطر عقب سمند سمت راست",
+  category: "چراغ و بدنه",
+  brand: "کروز",
+  price: "5800000",
+  sale_price: "5000000",
+  image: "C:\\Users\\No1\\Desktop\\cla\\nextjs-frontend\\public\\چراغ عقب سمند.jpg"
+},
+{
+  name: "جلوپنجره دنا پلاس",
+  description: "جلوپنجره دنا پلاس مشکی فابریک",
+  category: "چراغ و بدنه",
+  brand: "ایساکو",
+  price: "7200000",
+  sale_price: "6200000",
+  image: "C:\\Users\\No1\\Desktop\\cla\\nextjs-frontend\\public\\جلوپنجره دنا.jpg"
+}
+
+
+{
+  name: "چراغ جلو دنا پلاس",
+  description: "چراغ جلو دنا پلاس سمت راست",
+  category: "چراغ و بدنه",
+  brand: "کروز",
+  price: "11000000",
+  sale_price: "9500000",
+  image: "C:\\Users\\No1\\Desktop\\cla\\nextjs-frontend\\public\\چراغ جلو دنا.jpg"
+},
+{
+  name: "سپر عقب پژو ۲۰۶",
+  description: "سپر عقب پژو ۲۰۶ هاچبک رنگ سفید",
+  category: "چراغ و بدنه",
+  brand: "ایران خودرو",
+  price: "12500000",
+  sale_price: "11000000",
+  image: "C:\\Users\\No1\\Desktop\\cla\\nextjs-frontend\\public\\سپر عقب 206.jpg"
+},
+{
+  name: "چراغ خطر عقب پژو پارس",
+  description: "چراغ خطر عقب پژو پارس سمت چپ",
+  category: "چراغ و بدنه",
+  brand: "کروز",
+  price: "6800000",
+  sale_price: "5900000",
+  image: "C:\\Users\\No1\\Desktop\\cla\\nextjs-frontend\\public\\چراغ خطر پارس.jpg"
+},
+{
+  name: "آینه بغل سمند",
+  description: "آینه بغل سمند برقی سمت چپ",
+  category: "چراغ و بدنه",
+  brand: "ایساکو",
+  price: "5700000",
+  sale_price: "4900000",
+  image: "C:\\Users\\No1\\Desktop\\cla\\nextjs-frontend\\public\\آینه سمند.jpg"
+},
+{
+  name: "دستگیره درب پژو ۴۰۵",
+  description: "دستگیره بیرونی درب جلو پژو ۴۰۵ مشکی",
+  category: "بدنه خودرو",
+  brand: "کروز",
+  price: "1800000",
+  sale_price: "1500000",
+  image: "C:\\Users\\No1\\Desktop\\cla\\nextjs-frontend\\public\\دستگیره 405.jpg"
+}
+
+
+   
+برند ها:
+
+
+{
+  name: "کروز",
+  logo: "C:\\Users\\No1\\Desktop\\cla\\nextjs-frontend\\public\\کروز.jpg",
+
+}
+
+
+{
+  name: "عظام",
+  logo: "C:\\Users\\No1\\Desktop\\cla\\nextjs-frontend\\public\\عظام.jpg",
+
+}
+
+{
+  name: "جمع ساز",
+  logo: "C:\\Users\\No1\\Desktop\\cla\\nextjs-frontend\\public\\جمع ساز.jpg",
+
+}
+
+{
+  name: "ایساکو",
+  logo: "C:\\Users\\No1\\Desktop\\cla\\nextjs-frontend\\public\\ایساکو.jpg",
+
+}
+
+  
+
+دسته بندی ها:
+
+
+{
+name:"چراغ و بدنه",
+image: "C:\\Users\\No1\\Desktop\\cla\\nextjs-frontend\\public\\چراغ و بدنه.jpg",
+
+}
+
+
+{
+name:"موتوری",
+image: "C:\\Users\\No1\\Desktop\\cla\\nextjs-frontend\\public\\موتوری.jpg",
+
+}
+
+
+{
+name:"سیستم تعلیق و جلوبندی",
+image: "C:\\Users\\No1\\Desktop\\cla\\nextjs-frontend\\public\\سیستم تعلیق و جلوبندی.jpg",
+
+}
+
+{
+name:"سیستم ترمز ",
+image: "C:\\Users\\No1\\Desktop\\cla\\nextjs-frontend\\public\\سیستم ترمز.jpg",
+
+}
+
+
+{
+name:"سیستم الکتریکی و برق خودرو",
+image: "C:\\Users\\No1\\Desktop\\cla\\nextjs-frontend\\public\\سیستم الکتریکی و برق خودرو.jpg",
+
+}
+
+
+{
+name:"فیلترها",
+image: "C:\\Users\\No1\\Desktop\\cla\\nextjs-frontend\\public\\فیلتر ها.jpg",
+
+}
+
+
+
+
