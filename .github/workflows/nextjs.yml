@@ -74,6 +74,11 @@ jobs:
       - name: Install dependencies
         run: ${{ steps.detect-package-manager.outputs.manager }} ${{ steps.detect-package-manager.outputs.command }}
       - name: Build with Next.js
+        env:
+          # GitHub Pages has no backend; use the built-in sample catalog.
+          NEXT_PUBLIC_FAKE_DATA: "true"
+          # Custom domain serves from root. Set to "/ssr_test2" for project-pages hosting.
+          NEXT_PUBLIC_BASE_PATH: ""
         run: ${{ steps.detect-package-manager.outputs.runner }} next build
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3

@@ -1,11 +1,19 @@
 import type { NextConfig } from "next";
 
 const isProd = process.env.NODE_ENV === "production";
+// For GitHub project pages use "/ssr_test2". For a custom domain (or local static
+// preview) leave empty. Set NEXT_PUBLIC_BASE_PATH in the build environment to override.
+const basePath =
+  process.env.NEXT_PUBLIC_BASE_PATH !== undefined
+    ? process.env.NEXT_PUBLIC_BASE_PATH
+    : isProd
+      ? "/ssr_test2"
+      : "";
 
 const nextConfig: NextConfig = {
   output: "export",
-  basePath: isProd ? "/ssr_test2" : "",
-  assetPrefix: isProd ? "/ssr_test2/" : "",
+  basePath,
+  assetPrefix: basePath ? `${basePath}/` : "",
   trailingSlash: true,
   images: {
     unoptimized: true,
